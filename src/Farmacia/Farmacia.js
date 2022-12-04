@@ -1,7 +1,7 @@
 const Entregador = require('../Entregador/Entregador')
 const Paciente = require('../Paciente/Paciente')
 const Pessoa = require('../Pessoa/Pessoa')
-
+const estoque = require('./estoque')
 
 class Farmacia {
     nomeFantasia
@@ -16,11 +16,13 @@ class Farmacia {
     }
 
     verificarEstoque() {
-        //codigo
+        let opcoesDisponiveis = estoque.map(item => item)
+        return opcoesDisponiveis
     }
 
     gerarNumeroDePedido() {
-        //codigo
+        let numeroDePedido = Math.floor(Math.random() * 1000);
+        return numeroDePedido
 
     }
 

@@ -6,8 +6,8 @@ describe('Testes da classe Pessoa', () => {
         expect(novaPessoa).toEqual({ "dataDeNascimento": "31/08/2000", "id": 10, "idade": 22, "nomeCompleto": "Maria das Dores", "telefone": "4002-8922" })
     })
     // test('Fazer uma instância da classe Pessoa sem sucesso', () => {
-    //     let novaPessoa = new Pessoa()
-    //     expect(() => (novaPessoa)).toThrow('Não foi possível criar uma instância de Pessoa')
+    //     let novaPessoa = new Pessoa(1)
+    //     expect(() => (novaPessoa)).toThrow('nao foi')
     // })
     test('Verificar nome da pessoa', () => {
         let novaPessoa = new Pessoa(10, 'Maria das Dores', '31/08/2000', 22, '4002-8922')
