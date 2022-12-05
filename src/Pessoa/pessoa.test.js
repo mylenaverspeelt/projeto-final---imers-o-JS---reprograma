@@ -1,13 +1,18 @@
+const Entregador = require('../Entregador/Entregador')
 const Pessoa = require('./Pessoa')
 
 describe('Testes da classe Pessoa', () => {
-    test('Fazer uma instância da classe Pessoa com sucesso', () => {
+    test('Verifica se a instância de Pessoa é feita corretamente', () => {
         let novaPessoa = new Pessoa(10, 'Maria das Dores', '31/08/2000', 22, '4002-8922')
-        expect(novaPessoa).toEqual({ "dataDeNascimento": "31/08/2000", "id": 10, "idade": 22, "nomeCompleto": "Maria das Dores", "telefone": "4002-8922" })
+        expect(novaPessoa instanceof Pessoa).toBeTruthy()
     })
-    // test('Fazer uma instância da classe Pessoa sem sucesso', () => {
-    //     let novaPessoa = new Pessoa(1)
-    //     expect(() => (novaPessoa)).toThrow('nao foi')
+    //     test('Fazer uma instância com valores indefinidos', () => {
+    //     let novaPessoa = new Pessoa()
+    //     expect(() => (novaPessoa)).toThrow('Não foi possível criar uma instância de Pessoa')
+    // })
+    //     test('Fazer uma instância com valores de tipos diferentes', () => {
+    //     let novaPessoa = new Pessoa()
+    //     expect(() => (novaPessoa)).toThrow('Não foi possível criar uma instância de Pessoa')
     // })
     test('Verificar nome da pessoa', () => {
         let novaPessoa = new Pessoa(10, 'Maria das Dores', '31/08/2000', 22, '4002-8922')
