@@ -23,4 +23,8 @@ describe('Testes da classe Paciente', () => {
     // test('Testar com valores de tipo diferentes', ()=>{
 
     // })
+        // test('Testar com pessoa sem ser instancia de pessoa', ()=>{
+
+    // })
+    
 })

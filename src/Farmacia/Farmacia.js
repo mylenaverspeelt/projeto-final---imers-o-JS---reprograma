@@ -8,11 +8,13 @@ class Farmacia {
     cnpj
     medicamentosEmEstoque
 
+    static listaDeFarmacias = []
 
     constructor(nomeFantasia, cnpj) {
         this.nomeFantasia = nomeFantasia
         this.cnpj = cnpj
         this.medicamentosEmEstoque = estoque
+        this.constructor.listaDeFarmacias.push({nomeFantasia: nomeFantasia, cnpj: cnpj, estoque: this.medicamentosEmEstoque})
     }
 
     verificarEstoque() {
@@ -31,10 +33,12 @@ class Farmacia {
     }
 
 
-    fazerPedido() {
-        //codigo
+    fazerPedido(opa) {
+        console.log(historicoDePedidos)
     }
 }
 
 module.exports = Farmacia
 
+const farmaciaEstadual = new Farmacia('Farmácia do Estado de Pernambuco', '898565-50')
+console.log(farmaciaEstadual.listaDeFarmacias)

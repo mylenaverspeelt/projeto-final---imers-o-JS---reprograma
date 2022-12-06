@@ -6,14 +6,12 @@ describe('Testes da classe Pessoa', () => {
         let novaPessoa = new Pessoa(10, 'Maria das Dores', '31/08/2000', 22, '4002-8922')
         expect(novaPessoa instanceof Pessoa).toBeTruthy()
     })
-    //     test('Fazer uma instância com valores indefinidos', () => {
-    //     let novaPessoa = new Pessoa()
-    //     expect(() => (novaPessoa)).toThrow('Não foi possível criar uma instância de Pessoa')
-    // })
-    //     test('Fazer uma instância com valores de tipos diferentes', () => {
-    //     let novaPessoa = new Pessoa()
-    //     expect(() => (novaPessoa)).toThrow('Não foi possível criar uma instância de Pessoa')
-    // })
+    test('Fazer uma instância com valores indefinidos', () => {
+        expect(() => new Pessoa()).toThrow('Não é possível realizar uma instância com valores indefinidos')
+      });
+      test('Fazer uma instância com valores de tipo diferente do esperado', () => {
+        expect(() => new Pessoa(10, 'Maria das Dores', '31/08/2000', 22, 1)).toThrow('Não foi possível criar uma instância de Pessoa')
+      });
     test('Verificar nome da pessoa', () => {
         let novaPessoa = new Pessoa(10, 'Maria das Dores', '31/08/2000', 22, '4002-8922')
         expect(novaPessoa.nomeCompleto).toBe('Maria das Dores')
