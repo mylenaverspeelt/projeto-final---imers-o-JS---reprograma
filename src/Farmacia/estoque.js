@@ -1,27 +1,12 @@
-let estoque = [{
-    nome: 'Zolpidem',
-    qtde: 70
-}, {
-    nome: 'Dipirona',
-    qtde: 10
-},
-{
-    nome: 'AAS',
-    qtde: 55
-},
-{
-    nome: 'Dexametasona',
-    qtde: 0
-},
-{
-    nome: 'Paracetamol',
-    qtde: 20
-},
-{
-    nome: 'Ciprofloxacino',
-    qtde: 7
-}
-]
+let estoque = {
+    Zolpidem: 70,
+    Dipirona: 10,
+    AAS: 55,
+    Dexametasona: 0,
+    Paracetamol: 20,
+    Ciprofloxaxino: 7
 
+}
 
 module.exports = estoque
+
