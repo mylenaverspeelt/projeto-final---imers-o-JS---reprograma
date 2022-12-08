@@ -3,7 +3,7 @@ const Pessoa = require('../Pessoa/Pessoa')
 class Paciente extends Pessoa {
 
     endereco
-    medicacoesPorMes
+    medicacoesPorMes 
 
     constructor(pessoa, endereco, medicacoesPorMes) {
         super(pessoa.id, pessoa.nomeCompleto, pessoa.dataDeNascimento, pessoa.idade, pessoa.telefone)
