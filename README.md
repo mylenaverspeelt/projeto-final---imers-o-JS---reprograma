@@ -1,7 +1,7 @@
 
 # Aplicativo Remédio em Casa 💊🚑
 
-<img src="./public/images/logo.png" alt="Remédio em Casa Logomarca'>
+<img src="./public/images/logo.png" alt='Remédio em Casa Logomarca'/>
 
 ### 💻 Proposta
 Projeto Conclusão do Curso: Turma 21 - Imersão JavaScript {Reprograma} | Dezembro 2022 | Autora:<a target='_blank' href="https://www.linkedin.com/in/mylenaverspeelt/">Mylena Verspeelt</a>
