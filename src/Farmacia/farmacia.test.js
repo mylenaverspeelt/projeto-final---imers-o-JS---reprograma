@@ -30,7 +30,7 @@ describe('Testes da classe Farmácia', () => {
     })
     //AJEITAR TESTEEEEEEEEEE vvvvvvvvvvv
     test('Verifica se a nota fiscal é emitida com sucesso', () => {
-        expect(novafarmacia.gerarNotaFiscal(formatarData(), pacienteJoaquim.nomeCompleto, pacienteJoaquim.medicacoesPorMes, entregadorMarcos.nomeCompleto)).toStrictEqual({ "Entregador": "Marcos José Mendonça", "Medicamentos": "[object Object]", "Paciente": "Joaquim Cavalcanti da Silva", "dataDoPedido": "08/12/2022" })
+        expect(novafarmacia.gerarNotaFiscal(formatarData(), pacienteJoaquim.nomeCompleto, pacienteJoaquim.medicacoesPorMes, entregadorMarcos.nomeCompleto)).toStrictEqual({"Entregador": "Marcos José Mendonça", "Medicamentos": {"Dexametasona": 5, "Dipirona": 1, "Paracetamol": 2}, "Paciente": "Joaquim Cavalcanti da Silva", "dataDoPedido": "08/12/2022"})
     })
     // test('Verifica se o número de pedido é gerado com sucesso', () => {
     //     expect(novafarmacia.gerarNumeroDePedido()).toBe('')

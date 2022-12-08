@@ -5,13 +5,13 @@
 <img src="./public/images/logo.png" alt='Remédio em Casa Logomarca'/>
 </div>
 
-### ✔️  Proposta
-Projeto Conclusão do Curso: Turma 21 - Imersão JavaScript {Reprograma} | Dezembro 2022 | Autora:<a target='_blank' href="https://www.linkedin.com/in/mylenaverspeelt/">Mylena Verspeelt</a>
+### ✔️ Proposta
+Projeto Conclusão do Curso: Turma 21 - Imersão JavaScript {Reprograma} | Dezembro 2022 | Autora:<a target='_blank' href="https://www.linkedin.com/in/mylenaverspeelt/"> Mylena Verspeelt</a>
 
 ### 💻 Descrição do Projeto
 
 O projeto foi pensado para facilitar a entrega de medicamentos de uso recorrente mensal para pacientes cadastrados na rede estadual de farmácias. 
-O usuário em foco são pacientes acamados, idosos, com alguma limitação de mobilidade, moradores da zona rural ou com alguma outra condição especial.
+Os usuários em foco são pacientes acamados, idosos, com alguma limitação de mobilidade, moradores da zona rural ou com alguma outra condição especial.
 O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 
 
@@ -33,7 +33,7 @@ O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 - [Npm](https://www.npmjs.com/)
  
 
-### ⚙️ Rode o projeto localmente!
+### ⚙️ Rode o projeto localmente
 
 - É necessário que você tenha instalado na sua maquina o [npm](https://docs.npmjs.com/cli/v7/commands/npm-install) e uma IDE da sua preferência, eu utilizei o [VSCode](https://code.visualstudio.com/).
 
@@ -47,8 +47,9 @@ O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 | Rodar o projeto                                  | `npm start`        |
 | Rodar os testes 				                   |`npm run test`      |
 
+- Como sugestão pessoal, sugiro adicionar a extensão 'Jest Runner' (no VSCode) para facilitar na hora de rodar os testes.
 
-### 🛠️ Evolução do projeto
+### 🚀 Evolução do projeto
 Visando melhorias futuras, mapeei alguns pontos que podem ser aplicados:
 - Fazer verificação dos dados de telefone, data de nascimento, endereço e cnpj com regex
 - Verificar se já foi realizado um pedido com aquela numeração que foi gerada / Mudar o método de geração de número de pedido
