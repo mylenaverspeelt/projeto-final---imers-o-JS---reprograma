@@ -18,9 +18,9 @@ class Entregador extends Pessoa {
             throw new Error('Motorista menor de idade. Não foi possível criar uma instância')
         }
     
-        if(!pessoa || !tipoVeiculo || !numeroCadastro || !disponibilidade) {
-            throw new Error('Não é possível instanciar com valores indefinidos')
-        }
+        // if(!pessoa || !tipoVeiculo || !numeroCadastro || !disponibilidade) {
+        //     throw new Error('Não é possível instanciar com valores indefinidos')
+        // }
     
     }
 
