@@ -10,13 +10,15 @@ Projeto Conclusão do Curso: Turma 21 - Imersão JavaScript {Reprograma} | Dezem
 
 ### 💻 Descrição do Projeto
 
-O projeto foi pensado para facilitar a entrega de medicamentos de uso recorrente mensal para pacientes cadastrados na rede estadual de farmácias. 
+O projeto foi pensado para intermediar a entrega de medicamentos de uso recorrente mensal para pacientes cadastrados na rede estadual de farmácias. O objetivo principal é descentralizar e facilitar o acesso da população aos medicamentos.
 Os usuários em foco são pacientes acamados, idosos, com alguma limitação de mobilidade, moradores da zona rural ou com alguma outra condição especial.
 O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 
 
+
 ### 💡 Features
 
+- Verifica se todos os parâmetros recebidos na hora da instância são dos tipos esperados ou se são indefinidos
 - Realiza o cadastro de novas Pessoas que podem ser Pacientes ou Entregadores
 - Realiza o cadastro de novas unidades de farmácias
 - Verifica o estoque da farmácia e atualiza o valor do mesmo após a realização de um pedido
@@ -57,3 +59,8 @@ Visando melhorias futuras, mapeei alguns pontos que podem ser aplicados:
 - Checar quando o estoque estiver zerado
 - Instalar o typescript pra garantir as tipagens dos dados
 
+### 😄 Boas notícias 
+
+- Em Abril/2022 o município de Caruaru disponibilizou um veículo adaptado que funciona como uma farmácia intinerante, para entrega de medicamentos, assistência farmacêutica e dispensamento de medicações, para a população que reside em bairros mais afastados, o programa se chama Farmamóvel.[(fonte)](https://portaldeprefeitura.com.br/2022/04/16/prefeitura-de-caruaru-inaugura-farmamovel-na-zona-rural-do-municipio-saiba-como-ter-acesso/)
+
+- Iniciado durante a pandemia, o governo do estado de Pernambuco criou o programa Remédio em Casa, que realiza entregas de medicamentos em domicilio para os usuários devidamente cadastrados que são residentes apenas da Região Metropolitana do Recife (RMR).[(fonte)](http://portal.saude.pe.gov.br/noticias/secretaria/farmacia-de-pe-realiza-entrega-em-domicilio) 
