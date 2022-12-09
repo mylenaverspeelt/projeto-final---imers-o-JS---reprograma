@@ -14,12 +14,12 @@ const pacienteJoaquim = new Paciente(joaquim, 'Rua das flores, 747 - Centro - Ca
     Paracetamol: 2,
     Dipirona: 1,
     Dexametasona: 5
-})
+}, '988400053004')
 const pacienteLucia = new Paciente(lucia, 'Rua Tancredo Neves, 21 - Salgado - Caruaru',  {
     Paracetamol: 1,
     Dipirona: 4,
     AAS: 2
-})
+}, '988400053004')
 
 // ENTREGADORES
 const entregadorMarcos = new Entregador(marcos, 'moto', 898, true)
