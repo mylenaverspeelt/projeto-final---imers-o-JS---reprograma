@@ -6,10 +6,8 @@ class Pessoa {
     telefone
     #cpf
 
-
     constructor(id, nomeCompleto, dataDeNascimento, idade, telefone, cpf) {
-
-        if (!id || !nomeCompleto || !dataDeNascimento || !idade || !telefone) {
+        if (!id || !nomeCompleto || !dataDeNascimento || !idade || !telefone || !cpf) {
             throw new Error('Não é possível realizar uma instância com valores indefinidos')
         } else if (typeof id === 'number' && typeof nomeCompleto === 'string' && typeof dataDeNascimento === 'string' && typeof idade === 'number' && typeof telefone === 'string' && typeof cpf === 'string') {
             this.id = id
@@ -29,9 +27,7 @@ class Pessoa {
 
     get cpf() {
         return this.#cpf
-
     }
-
 }
 
 
