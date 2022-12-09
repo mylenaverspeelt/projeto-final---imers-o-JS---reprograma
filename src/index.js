@@ -31,6 +31,6 @@ const farmaciaMunicipal = new Farmacia('Farmácia da Prefeitura de Caruaru', '84
 
 
 
-console.log(farmaciaEstadual.fazerPedido(pacienteJoaquim, entregadorMarcos));
-console.log(farmaciaEstadual.fazerPedido(pacienteLucia, entregadorMarcos));
+// console.log(farmaciaEstadual.fazerPedido(pacienteJoaquim, entregadorMarcos));
+// console.log(farmaciaEstadual.fazerPedido(pacienteLucia, entregadorMarcos));
 

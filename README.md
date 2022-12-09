@@ -41,6 +41,8 @@ O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 
 - Tanto o projeto como os testes rodam no próprio terminal da IDE, basta utilizar os comandos abaixo:
 
+<div align='center'>
+
 |                    Passo			               |       Comando	    |
 | ------------------------------------------------ | ------------------ |
 | Forkar o repositório				               | `fork tool`        |
@@ -49,6 +51,7 @@ O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 | Rodar o projeto                                  | `npm start`        |
 | Rodar os testes 				                   |`npm run test`      |
 
+</div>
 - Como sugestão pessoal, sugiro adicionar a extensão 'Jest Runner' (no VSCode) para facilitar na hora de rodar os testes.
 
 ### 🚀 Evolução do projeto
