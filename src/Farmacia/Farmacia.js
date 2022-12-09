@@ -64,8 +64,7 @@ class Farmacia {
                 Farmacia.historicoDePedidos(formatarData(), this.gerarNumeroDePedido(), this.nomeFantasia, listaMedicamentos, destinatario.nomeCompleto, destinatario.endereco, entregador.nomeCompleto, gerarNota)
 
                 return 'O pedido foi realizado com sucesso!'
-            }
-            else {
+            } else {
                 throw new Error('O entregador não encontra-se disponível no momento')
             }
         } else {

@@ -14,7 +14,7 @@ class Entregador extends Pessoa {
                 this.tipoVeiculo = tipoVeiculo
                 this.numeroCadastro = numeroCadastro
                 this.disponibilidade = disponibilidade
-                this.constructor.listaEntregadoresCadastrados.push({ dadosPessoais: pessoa, tipoVeiculo: this.tipoVeiculo, numeroCadastro: this.numeroCadastro, disponibilidade: this.disponibilidade })
+                this.constructor.listaEntregadoresCadastrados.push({dadosPessoais: pessoa, tipoVeiculo: this.tipoVeiculo, numeroCadastro: this.numeroCadastro, disponibilidade: this.disponibilidade})
             } else {
                 throw new Error('Motorista menor de idade. Não foi possível criar uma instância')
             }

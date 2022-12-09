@@ -3,4 +3,5 @@ function formatarData() {
 	return data.toLocaleDateString()
 }
 
+
 module.exports = formatarData
