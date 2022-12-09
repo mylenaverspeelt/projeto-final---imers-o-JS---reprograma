@@ -20,9 +20,6 @@ class Paciente extends Pessoa {
         else {
             throw new Error('Não foi possível criar uma instância de Paciente')
         }
-
-
-
     }
 
     static listaPacientesCadastrados = []
