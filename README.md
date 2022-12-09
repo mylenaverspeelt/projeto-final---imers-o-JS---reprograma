@@ -18,11 +18,16 @@ O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 
 ### 💡 Features
 
+- A classe <b>Pessoa </b>é a classe pai, responsável por criar todos os tipos de pessoa, que nesse caso são Entregadores e Pacientes. Recebe no seu construtor os valores de: nome completo, data de nascimento, idade, telefone e cpf, sendo este ultimo um dado do tipo privado.
+
+- A classe <b>Entregador</b> estende da classe Pessoa, faz o cadastro do motorista, do tipo do veículo, o número do cadastro e disponibilidade para entrega. Também há uma verificação de idade, só deixando a instância ser criada se o motorista for maior de 18 anos.
+
+- A classe <b>Paciente</b> estende da classe Pessoa, faz o cadastro do paciente, do endereço, da lista contendo o nome do medicamento e a quantidade de caixas necessárias no mês e o número do cartão do SUS.
+
+- A classe <b>Farmácia</b> cria uma nova unidade de farmácia que recebe no seu construtor o nome fantasia, cnpj e estoque. Possui alguns métodos como 'fazerPedido' que recebe como parâmetro um paciente e um entregador e 'gerarNotaFiscal' que gera uma nota fiscal após a realização de um pedido. 
+
 - Verifica se todos os parâmetros recebidos na hora da instância são dos tipos esperados ou se são indefinidos
-- Realiza o cadastro de novas Pessoas que podem ser Pacientes ou Entregadores
-- Realiza o cadastro de novas unidades de farmácias
 - Verifica o estoque da farmácia e atualiza o valor do mesmo após a realização de um pedido
-- Quando o pedido é concluido uma nota fiscal é gerada
 - Métodos estáticos em todas as classes que permitem ver quais instâncias foram criadas a partir delas.
 - Testes de caminhos felizes e infelizes de todas as classes
 
