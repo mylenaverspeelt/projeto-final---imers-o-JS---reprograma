@@ -1,5 +1,5 @@
 
-# Aplicativo Remédio em Casa 💊🚑
+Remédio em Casa 💊🚑
 
 <div align='center'>
 <img src="./public/images/logo.png" alt='Remédio em Casa Logomarca'/>
