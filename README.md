@@ -16,7 +16,7 @@ O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 
 
 
-### 💡 Features
+### 💡 Funcionalidades
 
 - A classe <b>Pessoa </b>é a classe pai, responsável por criar todos os tipos de pessoa, que nesse caso são Entregadores e Pacientes. Recebe no seu construtor os valores de: nome completo, data de nascimento, idade, telefone e cpf, sendo este ultimo um dado do tipo privado.
 
