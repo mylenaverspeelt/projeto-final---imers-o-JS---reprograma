@@ -62,7 +62,7 @@ O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 ### 🚀 Evolução do projeto
 Visando melhorias futuras, mapeei alguns pontos que podem ser aplicados:
 - Fazer verificação dos dados de telefone, data de nascimento, endereço e cnpj com regex
-- Verificar se já foi realizado um pedido com aquela numeração que foi gerada / Mudar o método de geração de número de pedido
+- Mudar o método de geração de número de pedido
 - Calcular a idade a partir da data de nascimento fornecida
 - Checar quando o estoque estiver zerado
 - Instalar o typescript pra garantir as tipagens dos dados
