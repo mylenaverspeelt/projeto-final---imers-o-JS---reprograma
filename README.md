@@ -11,7 +11,7 @@ Projeto Conclusão do Curso: Turma 21 - Imersão JavaScript {Reprograma} | Dezem
 ### 💻 Descrição do Projeto
 
 O projeto foi pensado para intermediar a entrega de medicamentos de uso recorrente mensal para pacientes cadastrados na rede estadual de farmácias. O objetivo principal é descentralizar e facilitar o acesso da população aos medicamentos.
-Os usuários em foco são pacientes acamados, idosos, com alguma limitação de mobilidade, moradores da zona rural ou com alguma outra condição especial.
+Os usuários em foco são pacientes acamados, idosos, com alguma limitação de mobilidade e moradores da zona rural.
 O aplicativo faz uma conexão entre o Paciente, a Farmácia e os Entregadores.
 
 
